@@ -3,7 +3,7 @@ using Xunit;
 
 namespace Square.Tests;
 
-public class CircleTests
+public class FigureTests
 {
     [Theory(DisplayName = "Проверяет вычисление площади фигур")]
     [MemberData(nameof(GetTestDataCheckSquare))]
